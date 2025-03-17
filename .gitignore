@@ -1,0 +1,48 @@
+# macOS system files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb
+!README.ipynb
+
+# Environment files
+.env
+*.env
+.venv
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Local configuration
+config.local.json
+*.local.json
+
+# Conda
+.conda/
+
+# API Keys and sensitive information
+**/api_keys.txt
+**/secrets.json
+**/credentials.json
+**/*.key
+**/*.pem
+**/*_key*
+**/*_secret*
+**/*password*
+**/*credential*
+
+# Exclude specific directories that might contain sensitive data
+02-prompt/
+**/notebooks/
+**/experiments/
+**/tests/ 
