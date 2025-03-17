@@ -41,6 +41,10 @@ config.local.json
 **/*password*
 **/*credential*
 
+# Allow markdown and python files
+!*.md
+!*.py
+
 # Exclude specific directories that might contain sensitive data
 02-prompt/
 **/notebooks/
