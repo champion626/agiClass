@@ -550,7 +550,7 @@ get_ipython().system('pip install --upgrade gradio')
 
 from openai import OpenAI
 
-client = OpenAI(api_key="YOUR_API_KEY",
+client = OpenAI(api_key="sk-uezlxcaysyevpdtadwdcjuikizujbsrnonvsexxjokkezqwa",
                 base_url="https://api.siliconflow.cn/v1")
 response = client.chat.completions.create(
     model='deepseek-ai/DeepSeek-V2.5',
